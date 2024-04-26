@@ -1,0 +1,195 @@
+*{ margin: 0px;
+    padding: 0px;
+    font-family:Arial ;
+}
+body{
+background-color: #020281;
+padding: 25px;
+        
+}
+ header{
+    max-width: 1700px;
+min-height: 210px;
+margin: 0 auto;
+border-radius: 20px 20px 0 0;
+/* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#d0e4f7+0,73b1e7+30,0a77d5+39,539fe1+77 */
+background: linear-gradient(to bottom,  #d0e4f7 0%,#73b1e7 30%,#0a77d5 39%,#539fe1 77%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+#mina{
+    width: 350px;
+        float: left;
+        margin-top: 13px;
+        margin-left: 15px;
+        animation: 3s entradalogo 1; 
+}
+#mina img:hover{
+filter: contrast(10);
+}
+.iconoo{
+margin-top: 20px;
+height:150px;
+width:330px;
+}
+
+#meenu{
+    max-width: 1700px;
+    min-height: 70px;
+    background-color:#4a4add ;
+    margin: 0 auto;
+}
+#meenu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+#meenu a{
+    color: #ffffff;
+    display: block;
+    padding: 25px;
+    text-decoration: none;
+    background-color:  #4a4add;
+    font-size: 25px;
+}
+#meenu a:hover{
+    background-color: #AC0415;
+}
+
+#meenu ul ul{
+    display: none;
+    position: absolute;
+    width: 190px;
+}
+
+#meenu ul li:hover ul{
+    display: block;
+}
+
+
+#vertical{
+   width: 300px;
+   min-height: 1466px;
+   float: left;
+  background-color:#0a77d5;
+}
+#vertical ul{
+list-style: none;
+padding: 8px;
+}
+#vertical a{
+display: block;
+color:black;
+padding:13px;
+text-decoration: none;
+margin-bottom: 6px;
+border-radius: 6px;
+background-color: white;
+
+}
+
+#vertical a:hover img{
+animation: 1s rotacion 1;
+}
+
+#vertical a:hover{
+/* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#ff3019+32,cf0404+83 */
+background: linear-gradient(to bottom,  #ff3019 32%,#cf0404 83%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    
+   }
+.hogares{
+height: 30px;
+}
+
+#skincare{
+    max-width: 1700px;
+    min-height: 530px;
+    background-color: #ffffff ;
+    margin: 0 auto;
+
+}
+#skincare p{
+font-size: 30px;
+padding: 40px;
+}
+#skincare h2{ 
+    text-align: center;
+    font-size: 40px;
+   padding: 2px;
+   margin-top: 15px;
+   margin-bottom: -25px;
+
+}
+
+footer{
+background-color: #AC0415;
+clear: both;
+max-width: 1700px;
+margin: 0 auto;
+border-radius: 0 0 22px 22px;
+text-align: center;
+color: white;
+padding: 60px;
+box-sizing: border-box;
+}
+/KEYFRAMES/
+@keyframes entradalogo {
+    0% {
+  transform: translateY(-250px);
+     } 
+  }
+
+#proyec{
+    width: 100px;
+    height: 100px;
+    margin-left: 395px;
+    background-color: #539fe1;
+    border-radius: 20px;
+}
+.ojeras{
+margin-left: 860px;
+
+
+}
+
+.derma{
+  margin-left: 330px;
+  margin-right: 650px;
+}
+
+.marc{
+    
+    margin-left: 800px;
+}
+#proli{
+    width: 100px;
+    height: 100px;
+    margin-left: 310px;
+    background-color: #539fe1;
+    border-radius: 20px;
+}
+#cleo{
+    width: 100px;
+    height: 100px;
+    margin-left: 375px;
+    background-color: #539fe1;
+    border-radius: 20px;
+}
+
+/*KEYFRAMES*/
+@keyframes rotacion {
+    0% {
+ transform: rotate(260deg);
+     } 
+  }
+.hogares{
+  height:30px;
+}
+
+.redes{
+
+  width: 60px;
+  height:60px;
+ 
+}
+
